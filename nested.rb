@@ -62,6 +62,7 @@ def dennis_ritchies_language
       }
     }
 programmer_hash[:dennis_ritchies][:languages][0]
+
 end
 
 def adding_matz
@@ -91,7 +92,9 @@ programmer_hash[:yukihiro_matsumoto] = [
 	{:known_for => "LISP"},
 	{:languages => "C"}
 ]
+
 adding_matz
+
 end
 
 
