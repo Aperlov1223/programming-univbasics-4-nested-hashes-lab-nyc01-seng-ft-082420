@@ -16,7 +16,10 @@ def hopper
       }
     }
 
+end
+
 programmer_hash[:grace_hopper]
+
 end
 
 def alan_kay_is_known_for
@@ -40,6 +43,8 @@ def alan_kay_is_known_for
 
 end
 
+programmer_hash[:alan_kay_is_known_for]
+
 def dennis_ritchies_language
 	programmer_hash =
  		{
@@ -56,7 +61,7 @@ def dennis_ritchies_language
         :languages => ["C"]
       }
     }
-
+programmer_hash[:dennis_ritchies][:languages][0]
 end
 
 def adding_matz
@@ -82,7 +87,12 @@ def adding_matz
         :languages => ["C"]
       }
     }
-
+programmer_hash[:yukihiro_matsumoto] = [
+	{:known_for => "LISP"},
+	{:languages => "C"}
+]
+adding_matz
+end
 end
 
 def changing_alan
@@ -106,6 +116,10 @@ def changing_alan
     }
 
 end
+programmer_hash[:alan_kay][:known_for] = "GUI"
+end
+changing_alan
+end
 
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
@@ -128,3 +142,6 @@ def adding_to_dennis
     }
 
 end
+programmer_hash[:dennis_ritchie][:languages] = "Assembly"
+end
+adding_to_dennis
