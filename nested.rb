@@ -93,8 +93,6 @@ programmer_hash[:yukihiro_matsumoto] = [
 	{:languages => "C"}
 ]
 
-adding_matz
-
 end
 
 
